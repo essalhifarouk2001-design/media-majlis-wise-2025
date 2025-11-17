@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Majlis Museum - WISE 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 3rem;
+        }
+        
+        .logo {
+            max-width: 350px;
+            height: auto;
+            margin: 0 auto 2rem;
+            display: block;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+        
+        .screens-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .screen-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .screen-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .panel-label {
+            font-size: 0.75rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .screen-title {
+            font-size: 1.2rem;
+            color: #1e3a8a;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .screen-subtitle {
+            font-size: 0.9rem;
+            color: #6b7280;
+            line-height: 1.4;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 3rem;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 640px) {
+            .logo {
+                max-width: 250px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .screens-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Media Majlis Museum" class="logo">
+            <h1>Media Majlis Museum</h1>
+            <p>Northwestern University in Qatar | WISE Summit 2025</p>
+        </div>
+        
+        <div class="screens-grid">
+            <!-- Panel 1 Screens -->
+            <a href="panel1-screen1-storytelling.html" class="screen-card">
+                <div class="panel-label">Panel 1 - Screen 1</div>
+                <div class="screen-title">Storytelling</div>
+                <div class="screen-subtitle">From Visionaries to Vloggers</div>
+            </a>
+            
+            <a href="panel1-screen2-whose-voice.html" class="screen-card">
+                <div class="panel-label">Panel 1 - Screen 2</div>
+                <div class="screen-title">Whose Voice Is It?</div>
+                <div class="screen-subtitle">Education and Media Access</div>
+            </a>
+            
+            <a href="panel1-screen3-abeer-sindir.html" class="screen-card">
+                <div class="panel-label">Panel 1 - Screen 3</div>
+                <div class="screen-title">#YourNameHere</div>
+                <div class="screen-subtitle">Abeer Sindir</div>
+            </a>
+            
+            <a href="panel1-screen4-television.html" class="screen-card">
+                <div class="panel-label">Panel 1 - Screen 4</div>
+                <div class="screen-title">Television</div>
+                <div class="screen-subtitle">Democratizing Media</div>
+            </a>
+            
+            <!-- Panel 2 Screens -->
+            <a href="panel2-screen1-suranga.html" class="screen-card">
+                <div class="panel-label">Panel 2 - Screen 1</div>
+                <div class="screen-title">Suranga Nanayakkara</div>
+                <div class="screen-subtitle">Accessibility & Technology</div>
+            </a>
+            
+            <a href="panel2-screen2-angela.html" class="screen-card">
+                <div class="panel-label">Panel 2 - Screen 2</div>
+                <div class="screen-title">Angela Oduor Lungati</div>
+                <div class="screen-subtitle">Ushahidi & Community Tech</div>
+            </a>
+            
+            <a href="panel2-screen3-sarosh.html" class="screen-card">
+                <div class="panel-label">Panel 2 - Screen 3</div>
+                <div class="screen-title">Sarosh Mulla</div>
+                <div class="screen-subtitle">Design & Journalism</div>
+            </a>
+            
+            <!-- Panel 3 Screens -->
+            <a href="panel3-screen1-sirat.html" class="screen-card">
+                <div class="panel-label">Panel 3 - Screen 1</div>
+                <div class="screen-title">Sirāt</div>
+                <div class="screen-subtitle">The Paths of Our Language</div>
+            </a>
+            
+            <a href="panel3-screen2-arabic-content.html" class="screen-card">
+                <div class="panel-label">Panel 3 - Screen 2</div>
+                <div class="screen-title">Creating in Arabic</div>
+                <div class="screen-subtitle">Hebah Nigm, Salam Katanani, Cynthia Abou Khalil</div>
+            </a>
+            
+            <!-- Panel 4 Screens -->
+            <a href="panel4-screen1-musalsal.html" class="screen-card">
+                <div class="panel-label">Panel 4 - Screen 1</div>
+                <div class="screen-title">What Is a Musalsal?</div>
+                <div class="screen-subtitle">The World is Watching Musalsalat</div>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Media Majlis Museum at Northwestern University in Qatar</p>
+        </div>
+    </div>
+</body>
+</html>
