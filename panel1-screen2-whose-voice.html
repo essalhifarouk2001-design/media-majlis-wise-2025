@@ -73,7 +73,7 @@
             border-bottom: 1px solid #e5e7eb;
         }
         
-        .content-section:last-child {
+        .content-section:last-of-type {
             border-bottom: none;
         }
         
@@ -112,6 +112,30 @@
             font-family: 'Traditional Arabic', 'Arial', sans-serif;
         }
         
+        .website-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
         .footer {
             background: #f9fafb;
             padding: 2rem 1.5rem;
@@ -147,6 +171,11 @@
             .content-section p {
                 font-size: 0.95rem;
             }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -171,12 +200,24 @@
             <span class="language-label">🇺🇸 ENGLISH</span>
             
             <p>How does education impact on media and access? Whose Voice Is It exploring education and its impact on who can participate in creative media, both as creator and audience.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
         </div>
         
         <div class="content-section arabic-content">
             <span class="language-label arabic">🇶🇦 العربية</span>
             
             <p>كيف يؤثر التعليم على وسائل الإعلام والوصول إليها؟ يستكشف "صوت من هذا؟" التعليم وتأثيره على من يمكنه المشاركة في الإعلام الإبداعي، سواء كمبدع أو كجمهور.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
         </div>
         
         <div class="footer">
