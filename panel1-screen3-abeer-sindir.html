@@ -73,7 +73,7 @@
             border-bottom: 1px solid #e5e7eb;
         }
         
-        .content-section:last-child {
+        .content-section:last-of-type {
             border-bottom: none;
         }
         
@@ -112,6 +112,30 @@
             font-family: 'Traditional Arabic', 'Arial', sans-serif;
         }
         
+        .website-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
         .footer {
             background: #f9fafb;
             padding: 2rem 1.5rem;
@@ -147,6 +171,11 @@
             .content-section p {
                 font-size: 0.95rem;
             }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -174,6 +203,12 @@
             <p>To what extent does your voice contribute to media discourse?</p>
             <p>A decade into the social media era, younger generations are benefiting from greater media literacy, access to technology and empowerment to address social issues. This informs and inspires conversations and creativity online. Are you one of the increasing number of people creating or adapting social media platforms to make your voice heard?</p>
             <p>#YourNameHere is a collection of video messages recorded for The Media Majlis by well-known content creators from the Middle East and North Africa. Sharing milestones and challenges they faced along the way, hear how they envisioned and activated their own media platforms which have had an impact around the world.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
         </div>
         
         <div class="content-section arabic-content">
@@ -183,6 +218,12 @@
             <p>إلى أي مدى يساهم صوتك في الخطاب الإعلامي؟</p>
             <p>عقد من الزمان مرَّ على انطلاق عصر وسائل التواصل الاجتماعي، وخلال هذا العقد استفادت الأجيال الشابة من انتشار وسهولة التواصل الإعلامي واستخدام التكنولوجيا والقدرة على معالجة القضايا الاجتماعية. شجَّع هذا على تعميق الحوار والإبداع عبر الإنترنت. هل أنت من الأشخاص الذين يستخدمون منصات التواصل الاجتماعي، أو يكيفونها لجعل صوتهم مسموعاً؟</p>
             <p>#YourNameHere هي مجموعة من رسائل الفيديو قامت مجموعة من المبدعين المعروفين في منطقة الشرق الأوسط وشمال إفريقيا بتسجيلها لمجلس الإعلام. في هذه المقاطع يشارك هؤلاء المبدعون إنجازاتهم والتحديات التي واجهتهم. دعونا نستمع كيف خططوا وفعَّلوا منصات وسائل الإعلام الخاصة بهم، التي كان لها تأثير في جميع أنحاء العالم.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
         </div>
         
         <div class="footer">
