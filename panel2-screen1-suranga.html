@@ -73,7 +73,7 @@
             border-bottom: 1px solid #e5e7eb;
         }
         
-        .content-section:last-child {
+        .content-section:last-of-type {
             border-bottom: none;
         }
         
@@ -112,6 +112,30 @@
             font-family: 'Traditional Arabic', 'Arial', sans-serif;
         }
         
+        .website-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
         .footer {
             background: #f9fafb;
             padding: 2rem 1.5rem;
@@ -147,6 +171,11 @@
             .content-section p {
                 font-size: 0.95rem;
             }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -172,6 +201,12 @@
             
             <p>Having spent the majority of his life researching and inventing new technologies that enable more access, Suranga Nanayakkara shares his insight on projects he has been working on which ultimately provide more accessibility to devices such as the smartphone. Although people think the smartphone is accessible, for someone with disability, it can be quite the opposite.</p>
             <p>Suranga Nanayakkara is an Associate Professor at the Auckland Bioengineering Institute, the University of Auckland. Nanayakkara's work is most important to the people whose lives it most directly impacts - those who face challenges to function in the world due to sensory deficits in hearing or vision. For his work he has received many awards including 'Young Inventor under 35' (TR35 award) in the Asia Pacific region by MIT TechReview, 'Outstanding Young Persons of Sri Lanka' (TOYP), and the INK Fellowship (2016).</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
         </div>
         
         <div class="content-section arabic-content">
@@ -179,6 +214,12 @@
             
             <p>أمضى سورانغا معظم حياته في البحث وابتكار تقنيات جديدة تتيح المزيد من الوصول إلى الأجهزة واستخدامها. وهو يشاركنا اليوم رؤيته حول المشاريع التي يعمل عليها، والتي توفر في نهاية المطاف المزيد من إمكانيات الوصول إلى الأجهزة مثل الهاتف الذكي. رغم أن الناس يعتقدون أن من السهل الوصول إلى الهواتف الذكية واستخدامها، إلا أن القضية يمكن أن تكون مختلفة كلياً بالنسبة للأشخاص المعوقين.</p>
             <p>سورانغا ناناياكارا أستاذ مشارك في معهد أوكلاند للهندسة الحيوية، التابع لجامعة أوكلاند. يكتسب عمل ناناياكارا أهمية كبرى بالنسبة للأشخاص الذين تتأثر حياتهم بالأجهزة بشكل مباشر - أي أولئك الذين يواجهون تحديات في العمل بسبب عجز في حاستيّ السمع أو الرؤية. حصل على العديد من الجوائز للأعمال التي قام بها، بما في ذلك جائزة "المخترع الشاب دون سن 35" (جائزة TR35) في منطقة آسيا والمحيط الهادئ، والتي تقدمها MIT TechReview وجائزة "الشباب المتميز في سيريلانكا" (TOYP) وزمالة INK (2016).</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
         </div>
         
         <div class="footer">
