@@ -126,4 +126,105 @@
             margin-top: 1rem;
         }
         
-        .website-button:hover
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
+        .footer {
+            background: #f9fafb;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            border-top: 2px solid #e5e7eb;
+        }
+        
+        .footer-logo {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-text {
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+        
+        @media (max-width: 640px) {
+            .logo {
+                max-width: 220px;
+            }
+            
+            .header h1 {
+                font-size: 1.4rem;
+            }
+            
+            .content-section {
+                padding: 1.5rem 1rem;
+            }
+            
+            .content-section p {
+                font-size: 0.95rem;
+            }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Media Majlis Museum" class="logo">
+            <h1>Television<br>التلفزيون</h1>
+            <p>From Visionaries to Vloggers: Media Revolutions in the Middle East</p>
+        </div>
+        
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/7XWEYC8YHdg" 
+                title="Television"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <div class="content-section">
+            <span class="language-label">🇺🇸 ENGLISH</span>
+            
+            <p>This animation is an introduction to television. Television democratized media as a platform by allowing creators to communicate with a much wider audience and bypass literacy issues. However, the cost of production nonetheless acts as a barrier for who could, and can, contribute.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
+        </div>
+        
+        <div class="content-section arabic-content">
+            <span class="language-label arabic">🇶🇦 العربية</span>
+            
+            <p>هذا الفيديو التوضيحي هو مقدمة عن التلفزيون. أضفى التلفزيون طابعاً ديمقراطياً على الإعلام كمنصة من خلال السماح للمبدعين بالتواصل مع جمهور أوسع بكثير وتجاوز قضايا محو الأمية. ومع ذلك، فإن تكلفة الإنتاج تعمل مع ذلك كحاجز لمن يمكنه، ويمكن أن يساهم.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-logo">Media Majlis Museum</div>
+            <div class="footer-text">Northwestern University in Qatar</div>
+            <div class="footer-text">WISE Summit 2025</div>
+        </div>
+    </div>
+</body>
+</html>

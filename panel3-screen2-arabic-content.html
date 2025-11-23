@@ -73,7 +73,7 @@
             border-bottom: 1px solid #e5e7eb;
         }
         
-        .content-section:last-child {
+        .content-section:last-of-type {
             border-bottom: none;
         }
         
@@ -112,6 +112,30 @@
             font-family: 'Traditional Arabic', 'Arial', sans-serif;
         }
         
+        .website-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
         .footer {
             background: #f9fafb;
             padding: 2rem 1.5rem;
@@ -147,6 +171,11 @@
             .content-section p {
                 font-size: 0.95rem;
             }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -174,6 +203,12 @@
             <p>Salam Katanani is a renowned science content creator. She captivates her audience with engaging and enlightening material across a variety of social media platforms, always and only in the Arabic language.</p>
             <p>Cynthia Abou Khalil explores her experience working the media industry in the Arab world, specifically focused in Qatar as Head of Short Form at Katara Studios. She elaborates on both challenges and opportunities when it comes to using the Arabic language as a communication tool within the media industry.</p>
             <p>To view more content from this exhibition, scan the QR code.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
         </div>
         
         <div class="content-section arabic-content">
@@ -183,6 +218,12 @@
             <p>سلام قطناني هي منشئة محتوى علمي مشهورة. تأسر جمهورها بمحتوى جذاب وتنويري عبر مجموعة متنوعة من منصات التواصل الاجتماعي، دائماً وفقط باللغة العربية.</p>
             <p>تستكشف سينثيا أبو خليل تجربتها في العمل بصناعة الإعلام في العالم العربي، مع التركيز بشكل خاص في قطر بصفتها رئيسة قسم الأشكال القصيرة في استوديوهات كتارا. تتحدث عن التحديات والفرص عندما يتعلق الأمر باستخدام اللغة العربية كأداة تواصل في صناعة الإعلام.</p>
             <p>لمشاهدة المزيد من المحتوى من هذا المعرض، امسح رمز الاستجابة السريعة.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
         </div>
         
         <div class="footer">
