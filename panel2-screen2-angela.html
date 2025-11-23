@@ -73,7 +73,7 @@
             border-bottom: 1px solid #e5e7eb;
         }
         
-        .content-section:last-child {
+        .content-section:last-of-type {
             border-bottom: none;
         }
         
@@ -112,6 +112,30 @@
             font-family: 'Traditional Arabic', 'Arial', sans-serif;
         }
         
+        .website-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 1rem;
+        }
+        
+        .website-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
         .footer {
             background: #f9fafb;
             padding: 2rem 1.5rem;
@@ -147,6 +171,11 @@
             .content-section p {
                 font-size: 0.95rem;
             }
+            
+            .website-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -160,7 +189,7 @@
         
         <div class="video-container">
             <iframe 
-                src="https://www.youtube.com/embed/d6Fkid_xqck" 
+                src="https://www.youtube.com/embed/VIDEO_ID_PENDING" 
                 title="Interview with Angela Oduor Lungati"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
@@ -172,6 +201,12 @@
             
             <p>Angela Oduor Lungati has dedicated her life to empowering communities by using technology. In this interview she shares insight on how people in Kenya get their news, and how media organizations have used Ushahidi, an open-source software application and a non-profit technology company, of which she is the executive director.</p>
             <p>Angela Oduor Lungati is a technologist, community builder and open-source software advocate who is passionate about building and using appropriate technology tools to create an impact in the lives of marginalized groups. She has over 10 years' experience in software development, global community engagement, and nonprofit organizational management. She currently serves as the Executive Director at Ushahidi, a global non-profit technology company that builds tools for democratizing information, increasing transparency and lowering barriers for individuals to raise their voices. She is also a co-founder of AkiraChix, a non-profit organization that nurtures generations of women who use technology to develop innovations and solutions for Africa.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    Visit Our Website to Learn More
+                </a>
+            </div>
         </div>
         
         <div class="content-section arabic-content">
@@ -179,6 +214,12 @@
             
             <p>كرَّست أنجيلا أودور لونغاتي حياتها لتمكين المجتمعات من استخدام التكنولوجيا. في هذه المقابلة تشارك أفكارها حول الطرق التي يحصل بها الناس في كينيا على الأخبار، وكيف تستخدم المؤسسات الإعلامية تطبيق أوشاهيدي، وهو تطبيق برمجيات مفتوح المصدر وشركة تكنولوجيا غير ربحية تديرها لونغاتي وتشغل منصب مديرها التنفيذي.</p>
             <p>أنجيلا أودور لونغاتي هي خبيرة في التكنولوجيا وناشطة مجتمعية مدافعة عن البرمجيات مفتوحة المصدر، لديها شغف ببناء واستخدام أدوات التكنولوجيا المناسبة لخلق تأثير في حياة الفئات المهمشة. تمتلك خبرة تزيد عن 10 سنوات في تطوير البرمجيات، وجذب المجتمع العالمي، والإدارة التنظيمية غير الربحية. وهي تشغل حالياً منصب المدير التنفيذي في شركة أوشاهيدي، وهي شركة تقنية عالمية غير ربحية تبتكر أدوات لإضفاء الطابع الديمقراطي على المعلومات وتزيد من شفافيتها وتزيل الحواجز أمام الأفراد وتشجعهم على رفع أصواتهم. وهي أيضاً من مؤسسي AkiraChix، وهي منظمة غير ربحية ترعى أجيالاً من النساء اللواتي يستخدمن التكنولوجيا لتطوير ابتكارات وحلول لأفريقيا.</p>
+            
+            <div class="button-container">
+                <a href="https://mediamajlis.northwestern.edu/en" target="_blank" class="website-button">
+                    قم بزيارة موقعنا لمعرفة المزيد
+                </a>
+            </div>
         </div>
         
         <div class="footer">
